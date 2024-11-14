@@ -1,1 +1,2 @@
-
+En la presente iteración se busca implementar el micro-servicio Customer Service ya que se considera la interacción con el cliente y su información de nivel crítico para lograr una migración satisfactoria del sistema desde una arquitectura monolítica
+a una arquitectura de micro-servicios.
