@@ -1,0 +1,26 @@
+DRIVERS:
+Requerimientos funcionales
+
+Gestión de Clientes:
+  • Operaciones CRUD para clientes (crear, actualizar, eliminar, ver).
+  • Gestión de datos personales y de pagos de los clientes.
+
+Gestión de Pedidos:
+  • Permitir a los clientes realizar pedidos, limitados a 3 intentos por cliente.
+  • Procesamiento de pedidos en tres fases secuenciales: preprocesamiento, autorización y aceptación.
+
+Gestión de Entregas y Rutas:
+  • Gestionar la entrega de flotas de transporte a los clientes.
+  • Implementar enrutamiento de camiones con selección automática de algoritmos de optimización basados en retrasos.
+
+Estadísticas:
+  • Proporcionar estadísticas sobre el estado de los pedidos, ubicaciones en tiempo real de los camiones y datos relevantes de los clientes.
+
+Informes de Incidentes:
+  • Reporte en tiempo real de incidentes de entrega (por ejemplo, fallos de camiones, envíos no entregados).
+
+Procesamiento de Pagos:
+  • Integración con la pasarela de pagos externa de MercadoLibre para garantizar pagos seguros y compatibles.
+
+Coordinación de Pedidos e Incidentes:
+  • Gestión centralizada de todas las solicitudes de pedidos e incidentes relacionados con las entregas.
