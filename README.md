@@ -1,6 +1,5 @@
 # Trabajo Práctico Especial: Proceso ADD (Grupo 6)
-
-## Contexto y Restriciones
+[Contexto y Restriciones](Contexto y Restricciones)
 
 ## Iteración 0
 
