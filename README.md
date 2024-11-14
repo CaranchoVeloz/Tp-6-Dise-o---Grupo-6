@@ -1,5 +1,5 @@
 # Trabajo Práctico Especial: Proceso ADD (Grupo 6)
-[Contexto y Restriciones](/Contexto y Restricciones)
+([/Contexto y Restricciones](https://github.com/CaranchoVeloz/Tp-6-Dise-o---Grupo-6/blob/main/Contexto%20y%20Restricciones))
 
 ## Iteración 0
 
