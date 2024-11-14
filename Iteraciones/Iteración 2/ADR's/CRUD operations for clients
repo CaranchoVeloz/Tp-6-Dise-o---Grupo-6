@@ -1,1 +1,64 @@
+Registro de Decisión Arquitectónica (ADR)
 
+
+                                                                        Arquitectura basada en Microservicios para la Empresa de Productos Alimenticios
+
+
+  La empresa de productos alimenticios pretende migrar su sistema monolítico a una arquitectura basada en microservicios para hacer la arquitectura menos rígida. La arquitectura actual incluye una interfaz de cliente (PC y móvil) que accede a 
+los datos de la empresa alojados en dos bases de datos SQL (Clientes, Pedidos). La lógica de negocio de la empresa incluye varios módulos con distintos niveles de criticidad, como Clientes, Pedidos, Entrega y Rutas, Estadísticas, Incidencias y Pagos. 
+La nueva arquitectura debe incluir los elementos de software y/o tecnología adecuados para ejecutar los microservicios.
+
+El sistema debe cumplir con los siguientes requisitos:
+
+  • Operaciones CRUD para clientes (crear, actualizar, eliminar, ver)
+  • Gestionar todas las solicitudes de pedidos de clientes y gestionar incidencias de entrega
+  • Asegurar la seguridad de los pagos y la compatibilidad con otros clientes
+  • Informar cualquier tipo de incidencia, como averías de camiones o entregas fallidas, a los gestores de rutas
+
+
+Factores Decisivos
+
+  • Operaciones CRUD para clientes
+  • Gestión de la lógica de negocio compleja y las restricciones del sistema
+  • Garantizar el rendimiento y la escalabilidad del sistema
+  • Mantener la mantenibilidad y escalabilidad del sistema
+
+
+Decisión Principal
+
+  La decisión es utilizar una combinación del Patrón de Repositorio y una arquitectura basada en microservicios para realizar las operaciones CRUD para clientes y gestionar la lógica de negocio compleja y las restricciones del sistema.
+
+
+Decisiones Alternativas
+
+  • Utilizar una arquitectura monolítica con una base de datos única
+  • Implementar una solución personalizada para las operaciones CRUD y la lógica de negocio
+  • Usar un patrón diferente, como la Arquitectura Orientada a Servicios (SOA)
+
+
+Pros
+
+  • Mejora la mantenibilidad y escalabilidad del sistema
+  • Proporciona una clara separación de responsabilidades entre la lógica de negocio y el almacenamiento de datos
+  • Permite una arquitectura más escalable y flexible
+  • Puede manejar la lógica de negocio compleja y las restricciones del sistema
+
+
+Contras
+
+  • Puede aumentar la complejidad del sistema, incrementando el riesgo de errores y los costos de mantenimiento
+  • Puede no ser adecuado para el módulo de incidencias de entrega, que requiere una arquitectura más compleja y desacoplada
+  • Requiere decisiones de seguimiento adicionales, como la definición de interfaces y contratos para el Patrón de Repositorio y la elección de una tecnología de almacenamiento de datos adecuada
+
+
+Evaluación
+
+  La decisión de utilizar una combinación del Patrón de Repositorio y una arquitectura basada en microservicios es un buen punto de partida, pero puede no ser la solución más adecuada para todo el sistema. Se asume que el Patrón de Repositorio 
+puede manejar todas las operaciones CRUD para los clientes, lo cual podría no ser el caso. Se pueden necesitar componentes o tecnologías adicionales para gestionar la lógica de negocio compleja y las restricciones del sistema.
+
+
+Decisiones de Seguimiento
+
+  • Definir las interfaces y contratos para que el Patrón de Repositorio pueda garantizar una clara separación de responsabilidades
+  • Elegir una tecnología de almacenamiento de datos adecuada, como una base de datos o un almacén de datos, para almacenar los datos de los clientes
+  • Implementar la lógica de negocio para los módulos de gestión de pedidos e incidencias de entrega, que podrían requerir una arquitectura más compleja y desacoplada
