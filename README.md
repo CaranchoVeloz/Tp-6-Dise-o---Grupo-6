@@ -3,10 +3,6 @@
 
 ## [Iteración 1](https://github.com/CaranchoVeloz/Tp-6-Dise-o---Grupo-6/tree/main/Iteraciones/Iteraci%C3%B3n%201)
 
-## Iteración 1
+## [Iteración 2](https://github.com/CaranchoVeloz/Tp-6-Dise-o---Grupo-6/tree/main/Iteraciones/Iteraci%C3%B3n%202)
 
-## Iteración 2
-
-## Iteración 3
-
-## Iteración 4
+## [Iteración 3](https://github.com/CaranchoVeloz/Tp-6-Dise-o---Grupo-6/tree/main/Iteraciones/Iteraci%C3%B3n%203)
