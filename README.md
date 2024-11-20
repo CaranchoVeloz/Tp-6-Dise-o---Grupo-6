@@ -5,7 +5,7 @@
 
 [Contexto y Restricciones](https://github.com/CaranchoVeloz/Tp-6-Dise-o---Grupo-6/blob/main/Contexto%20y%20Restricciones)
 
-https://github.com/CaranchoVeloz/Tp-6-Dise-o---Grupo-6/blob/main/Iteraciones/Iteraci%C3%B3n%201/Arquitectura%20Monol%C3%ADtica.png
+Iteraciones/Iteración 1/Arquitectura Monolítica.png
 
 ## [Iteración 1](https://github.com/CaranchoVeloz/Tp-6-Dise-o---Grupo-6/tree/main/Iteraciones/Iteraci%C3%B3n%201)
 
@@ -37,8 +37,8 @@ Este servicio es clave para garantizar la eficiencia logística y la satisfacci�
 * [ADR 6](https://github.com/CaranchoVeloz/Tp-6-Dise-o---Grupo-6/blob/main/Iteraciones/iteraci%C3%B3n%204/ADR's/Factory%20Pattern%20for%20selecting%20strategies.md)
 * [ADR 7](https://github.com/CaranchoVeloz/Tp-6-Dise-o---Grupo-6/blob/main/Iteraciones/iteraci%C3%B3n%204/ADR's/Strategy%20Pattern%20for%20Dynamic%20Route%20Optimization.md)
 
-## Futuras Iteraciónes
-Para las proximas iteraciones del diseño de la migración deberán tratarse los servicios 
+## Futuras Iteraciones
+Para las proximas iteraciones del diseño de la migración deberán tratarse los servicios:
 * Servicio de Pedidos (Order Service): Semi Critico
 * Servicio de Gestión de Incidentes (Incident Management Service): Semi Critico
 * Servicio de Estadísticas (Statistics Service): No Critico
