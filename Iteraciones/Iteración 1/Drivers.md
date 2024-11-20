@@ -1,5 +1,5 @@
-# DRIVERS:
-##Requerimientos funcionales
+# DRIVERS
+## Requerimientos funcionales
 
 ### Gestión de Clientes (Crítico):
   • Operaciones CRUD para clientes (crear, actualizar, eliminar, ver).
