@@ -10,7 +10,8 @@ La implementación del PGIP separará la lógica de procesamiento de pagos del r
 
 ### Decisiones Alternativas 
 
-* API Gateway: Se puede usar un API Gateway para gestionar las solicitudes y respuestas de la API, pero esto podría añadir complejidad adicional a la implementación.
+* API Gateway: Se puede usar un API Gateway para gestionar las solicitudes y respuestas de la API, pero esto podría añadir complejidad adicional a la implementación
+y sobrecargaría el API Gateway que ya implementamos
 
 ### Pros
 
