@@ -5,6 +5,8 @@
 
 [Contexto y Restricciones](https://github.com/CaranchoVeloz/Tp-6-Dise-o---Grupo-6/blob/main/Contexto%20y%20Restricciones)
 
+https://github.com/CaranchoVeloz/Tp-6-Dise-o---Grupo-6/blob/main/Iteraciones/Iteraci%C3%B3n%201/Arquitectura%20Monol%C3%ADtica.png
+
 ## [Iteración 1](https://github.com/CaranchoVeloz/Tp-6-Dise-o---Grupo-6/tree/main/Iteraciones/Iteraci%C3%B3n%201)
 
 Análisis de la Arquitectura, Descomposición y Drivers del Sistema
@@ -28,12 +30,15 @@ prioridad en el sistema/esfuerzo de desarrollo
 
 ## [Iteración 4](https://github.com/CaranchoVeloz/Tp-6-Dise-o---Grupo-6/tree/main/Iteraciones/iteraci%C3%B3n%204)
 
-## Futuras Iteraciónes
-Para la continuación del diseño de la migración deberán tratarse los servicios 
-
 En esta iteración se refinará el microservicio Delivery Service, siendo uno de los componentes de necesidad crítica del sistema original.
 Este servicio es clave para garantizar la eficiencia logística y la satisfacción del cliente al gestionar entregas y optimizar rutas.
 
 * [ADR 5](https://github.com/CaranchoVeloz/Tp-6-Dise-o---Grupo-6/blob/main/Iteraciones/iteraci%C3%B3n%204/ADR's/Event-Driven%20Architecture.md)
 * [ADR 6](https://github.com/CaranchoVeloz/Tp-6-Dise-o---Grupo-6/blob/main/Iteraciones/iteraci%C3%B3n%204/ADR's/Factory%20Pattern%20for%20selecting%20strategies.md)
 * [ADR 7](https://github.com/CaranchoVeloz/Tp-6-Dise-o---Grupo-6/blob/main/Iteraciones/iteraci%C3%B3n%204/ADR's/Strategy%20Pattern%20for%20Dynamic%20Route%20Optimization.md)
+
+## Futuras Iteraciónes
+Para las proximas iteraciones del diseño de la migración deberán tratarse los servicios 
+* Servicio de Pedidos (Order Service): Semi Critico
+* Servicio de Gestión de Incidentes (Incident Management Service): Semi Critico
+* Servicio de Estadísticas (Statistics Service): No Critico
