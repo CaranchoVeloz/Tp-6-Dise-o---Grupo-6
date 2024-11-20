@@ -28,6 +28,9 @@ prioridad en el sistema/esfuerzo de desarrollo
 
 ## [Iteración 4](https://github.com/CaranchoVeloz/Tp-6-Dise-o---Grupo-6/tree/main/Iteraciones/iteraci%C3%B3n%204)
 
+## Futuras Iteraciónes
+Para la continuación del diseño de la migración deberán tratarse los servicios 
+
 En esta iteración se refinará el microservicio Delivery Service, siendo uno de los componentes de necesidad crítica del sistema original.
 Este servicio es clave para garantizar la eficiencia logística y la satisfacción del cliente al gestionar entregas y optimizar rutas.
 
