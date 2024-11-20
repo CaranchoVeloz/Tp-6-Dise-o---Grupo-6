@@ -5,21 +5,21 @@ ha decidido migrar a una arquitectura de microservicios.
 
 ## Beneficios:
 
-** Flexibilidad **: Cada servicio puede ser modificado, desplegado y escalado de manera independiente, lo que facilita futuras 
+**Flexibilidad**: Cada servicio puede ser modificado, desplegado y escalado de manera independiente, lo que facilita futuras 
 actualizaciones y mejoras. 
 
-** Escalabilidad **: Los microservicios permiten escalar horizontalmente módulos específicos según la demanda. 
+**Escalabilidad**: Los microservicios permiten escalar horizontalmente módulos específicos según la demanda. 
 
-** Modularidad **: Al descomponer la aplicación monolítica en servicios más pequeños, se mejora la modularidad, lo que facilita 
+**Modularidad**: Al descomponer la aplicación monolítica en servicios más pequeños, se mejora la modularidad, lo que facilita 
 las pruebas y el desarrollo individual de cada servicio. 
 
-** Aislamiento de fallos **: El fallo en un microservicio no afectará directamente a otros servicios, lo que mejora la resiliencia del 
+**Aislamiento de fallos**: El fallo en un microservicio no afectará directamente a otros servicios, lo que mejora la resiliencia del 
 sistema en su conjunto.
 
 ## Desventajas:
 
-** Complejidad de Gestión **: complejidad adicional que se introduce en la gestión del sistema. 
+**Complejidad de Gestión**: complejidad adicional que se introduce en la gestión del sistema. 
 La gestión de múltiples servicios independientes requiere herramientas y procesos adicionales para asegurar que todos los servicios estén bien conectados.
 
-** Sobrecarga de Red **: La comunicación entre microservicios generalmente genera sobrecarga en la red y aumenta la latencia 
+**Sobrecarga de Red**: La comunicación entre microservicios generalmente genera sobrecarga en la red y aumenta la latencia 
 de las operaciones, especialmente cuando los microservicios dependen de otros servicios para completar una acción.
