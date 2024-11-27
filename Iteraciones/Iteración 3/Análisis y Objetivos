@@ -1,2 +1,4 @@
-En la actual interación se plantea el diseño de la implementación del micro servicio Payment Service debido a su orden en relación prioridad en el sistema/esfuerzo
-de desarrollo
+La tercer iteración se centró en el diseño del microservicio ‘Payment Service’, responsable de procesar de manera segura las 
+transacciones utilizando una pasarela de pagos externa. Tras diseñar el Servicio ‘Customer Service’, este paso fue lógico, ya que el
+procesamiento de pagos es crucial para la lógica de negocio y funcionalidad del sistema, y depende en gran medida de los datos de los 
+clientes. 
