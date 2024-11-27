@@ -20,3 +20,5 @@ la seguridad estrictos.
 
 * **Servicio de Gestión de Órdenes (Order Management Service)**: Coordina los pedidos y los incidentes, facilitando la gestión central del ciclo de vida de las
 órdenes y vinculando múltiples servicios para proporcionar una visión integral del estado de los pedidos.
+
+También se implementará un **API Gateway** para centralizar la entrada de solicitudes, dirigirlas a los microservicios correspondientes y consolidar las respuestas de múltiples servicios en una única salida.
