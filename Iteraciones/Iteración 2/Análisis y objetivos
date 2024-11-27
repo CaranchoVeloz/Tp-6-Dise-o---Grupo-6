@@ -1,2 +1,4 @@
-En la presente iteración se busca implementar el micro-servicio Customer Service ya que se considera la interacción con el cliente y su información de nivel crítico para lograr una migración satisfactoria del sistema desde una arquitectura monolítica
-a una arquitectura de micro-servicios.
+Una vez establecidos los distintos microservicios que tendrá la arquitectura del sistema, se decidió comenzar diseñar el microservicio 
+‘Customer Service’ para gestionar la información crítica de los clientes y pagos. Se eligió empezar por este servicio debido a que los 
+datos de los clientes son fundamentales para el sistema, y muchos otros microservicios, como los de pedidos, pagos y entregas, dependen 
+de información precisa y segura de los clientes. 
