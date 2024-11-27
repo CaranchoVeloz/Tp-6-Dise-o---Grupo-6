@@ -1,2 +1,5 @@
-En esta iteración se refinará el microservicio Delivery Service, siendo uno de los componentes de necesidad crítica del sistema original.
-Este servicio es clave para garantizar la eficiencia logística y la satisfacción del cliente al gestionar entregas y optimizar rutas.
+En la cuarta iteración se diseñó la implementación de ‘Delivery Service’, que gestiona la selección, coordinación y optimización de las 
+flotas de transporte. Se eligió este servicio para ir acorde al flujo de trabajo del sistema, ya que el proceso de entrega sigue 
+directamente después de la solicitud de un pedido y el pago. También se planteó la utilización de una base de datos dedicada para los 
+transportes y las rutas. 
+Esta iteración preparó al sistema para manejar en el futuro incidentes de entregas en tiempo real.
