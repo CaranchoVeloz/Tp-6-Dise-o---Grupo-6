@@ -1,3 +1,6 @@
+# Registro de Decisión Arquitectónica 6 (ADR)
+## Arquitectura basada en Microservicios para la Empresa de Productos Alimenticios
+
 **Payment Service** puede experimentar picos en las solicitudes de pago durante períodos de mucho tráfico (por ejemplo, Black Friday). Manejar estas solicitudes de manera sincrónica podría sobrecargar la pasarela externa o causar retrasos.
 
 ## Decisión principal
