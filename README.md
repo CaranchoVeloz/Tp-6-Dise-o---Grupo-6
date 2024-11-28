@@ -26,14 +26,19 @@ prioridad en el sistema/esfuerzo de desarrollo
 
 * [ADR 4](https://github.com/CaranchoVeloz/Tp-6-Dise-o---Grupo-6/blob/main/Iteraciones/Iteraci%C3%B3n%203/ADR's/Integration%20with%20an%20external%20payment%20gateway.md)
 
+
+* [ADR 5](https://github.com/CaranchoVeloz/Tp-6-Dise-o---Grupo-6/blob/main/Iteraciones/Iteración%203/ADR's/Circuit%20Breaker%20pattern.md)
+
+* [ADR 6](https://github.com/CaranchoVeloz/Tp-6-Dise-o---Grupo-6/blob/main/Iteraciones/Iteración%203/ADR's/Scalability%20through%20Message%20Queues.md)
+
 ## [Iteración 4](https://github.com/CaranchoVeloz/Tp-6-Dise-o---Grupo-6/tree/main/Iteraciones/iteraci%C3%B3n%204)
 
 En esta iteración se refinará el microservicio Delivery Service, siendo uno de los componentes de necesidad crítica del sistema original.
 Este servicio es clave para garantizar la eficiencia logística y la satisfacción del cliente al gestionar entregas y optimizar rutas.
 
-* [ADR 5](https://github.com/CaranchoVeloz/Tp-6-Dise-o---Grupo-6/blob/main/Iteraciones/iteraci%C3%B3n%204/ADR's/Event-Driven%20Architecture.md)
-* [ADR 6](https://github.com/CaranchoVeloz/Tp-6-Dise-o---Grupo-6/blob/main/Iteraciones/iteraci%C3%B3n%204/ADR's/Factory%20Pattern%20for%20selecting%20strategies.md)
-* [ADR 7](https://github.com/CaranchoVeloz/Tp-6-Dise-o---Grupo-6/blob/main/Iteraciones/iteraci%C3%B3n%204/ADR's/Strategy%20Pattern%20for%20Dynamic%20Route%20Optimization.md)
+* [ADR 7](https://github.com/CaranchoVeloz/Tp-6-Dise-o---Grupo-6/blob/main/Iteraciones/iteraci%C3%B3n%204/ADR's/Event-Driven%20Architecture.md)
+* [ADR 8](https://github.com/CaranchoVeloz/Tp-6-Dise-o---Grupo-6/blob/main/Iteraciones/iteraci%C3%B3n%204/ADR's/Factory%20Pattern%20for%20selecting%20strategies.md)
+* [ADR 9](https://github.com/CaranchoVeloz/Tp-6-Dise-o---Grupo-6/blob/main/Iteraciones/iteraci%C3%B3n%204/ADR's/Strategy%20Pattern%20for%20Dynamic%20Route%20Optimization.md)
 
 ## Futuras Iteraciones
 Para las proximas iteraciones del diseño de la migración deberán tratarse los servicios:
