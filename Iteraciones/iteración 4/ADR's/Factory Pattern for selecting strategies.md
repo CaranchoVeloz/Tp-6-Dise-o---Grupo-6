@@ -1,4 +1,4 @@
-# Registro de Decisión Arquitectónica 6 (ADR)
+# Registro de Decisión Arquitectónica 8 (ADR)
 ## Arquitectura basada en Microservicios para la Empresa de Productos Alimenticios
 
 Utilizando el patrón strategy previamente, nuestro servicio de Entrega ahora puede manejar múltiples algoritmos de optimización de rutas de manera independiente, 
