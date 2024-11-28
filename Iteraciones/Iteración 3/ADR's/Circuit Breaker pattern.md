@@ -1,3 +1,6 @@
+# Registro de Decisión Arquitectónica 5 (ADR)
+## Arquitectura basada en Microservicios para la Empresa de Productos Alimenticios
+
 El microservicio ‘Payment Service’ interactúa con una pasarela de pagos externa, como MercadoLibre, para procesar transacciones. Sin embargo, este servicio externo puede experimentar períodos de inactividad, alta latencia u otros problemas que podrían causar fallos o demoras en el procesamiento de pagos. Si estos problemas no se abordan correctamente, pueden afectar la experiencia del usuario y provocar interrupciones en todo el sistema.
 
 ## Decisión Principal
