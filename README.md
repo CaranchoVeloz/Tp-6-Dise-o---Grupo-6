@@ -48,6 +48,8 @@ Este servicio es clave para garantizar la eficiencia logística y la satisfacci�
 * [Diagrama event-driven](https://github.com/CaranchoVeloz/Tp-6-Dise-o---Grupo-6/blob/main/Iteraciones/iteración%204/Diagrama%20event-driven.png)
 * [Diagrama secuencia eventos](https://github.com/CaranchoVeloz/Tp-6-Dise-o---Grupo-6/blob/main/Iteraciones/iteración%204/Diagrama%20secuencia%20eventos.png)
 
+## [Diagrama deployment](https://github.com/CaranchoVeloz/Tp-6-Dise-o---Grupo-6/blob/main/Diagrama%20Deployment.png)
+
 ## Futuras Iteraciones
 Para las proximas iteraciones del diseño de la migración deberán tratarse los servicios:
 * Servicio de Pedidos (Order Service): Semi Critico
